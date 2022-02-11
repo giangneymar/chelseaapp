@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_photos"
+        android:icon="@drawable/ic_photos"
+        android:title="@string/photos" />
+
+    <item
+        android:id="@+id/nav_first_team"
+        android:icon="@drawable/ic_team"
+        android:title="@string/first_team" />
+
+    <item
+        android:id="@+id/nav_legend"
+        android:icon="@drawable/ic_legend"
+        android:title="@string/legend" />
+
+    <item
+        android:id="@+id/nav_prize"
+        android:icon="@drawable/ic_prize"
+        android:title="@string/prize" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_about"
+        android:title="@string/about" />
+
+    <item
+        android:id="@+id/nav_dev"
+        android:icon="@drawable/ic_dev"
+        android:title="@string/developer" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/information_profile" />
+
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/ic_signout"
+        android:title="@string/sign_out" />
+
+</menu>

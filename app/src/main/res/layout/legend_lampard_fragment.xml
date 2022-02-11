@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgAvatarLegend"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fragment_legend_lampard" />
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_toRightOf="@id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/frame_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/frame_layout"
+            android:layout_toRightOf="@id/imgAvatarLegend">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Frank Lampard"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@id/frame_layout2"
+            android:layout_toRightOf="@id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/location"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/frame_layout3"
+            android:layout_toRightOf="@id/imgAvatarLegend">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Romford, London, Anh"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tiểu Sử"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_layout5"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Lampard có trận đấu đầu tiên cho Chelsea trong trận hòa 1-1 với Newcastle United vào ngày 19 tháng 8 năm 2001."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày 25 tháng 7 năm 2004, sau nhiều tháng đàm phán, cuối cùng Lampard cũng đồng ý gia hạn hợp đồng với Chelsea thêm 5 năm."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Mùa giải 2007-2008 là mùa giải mà Lampard bị chấn thương hành hạ nên anh chỉ ra sân trong 40 trận trên mọi mặt trận, trong đó riêng Giải bóng đá ngoại hạng Anh là 24 trận – số trận ít nhất anh thi đấu trong một mùa kể từ mùa giải 1996–97."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Mở đầu mùa giải 2009-10, Lampard đã ghi bàn nâng tỉ số 2-1 cho Chelsea trong trận tranh cúp Community Shield với MU."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Sau nhiều trận đấu phải ngồi ghế dự bị, Lampard được đá chính trở lại và một lần nữa trở thành người ghi bàn thắng quyết định ở phút 89 cho Chelsea trong chiến thắng 2-1 trước Wolves tại Molineux ngày 2 tháng 1 năm 2012."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày 3 tháng 6 năm 2014, Lampard chính thức xác nhận sẽ rời Chelsea sau 13 năm gắn bó với thành tích tổng cộng 211 bàn thắng, bốn lần kết thúc mùa giải với vị trí chân sút hàng đầu của Chelsea và ba lần được bầu chọn là cầu thủ hay nhất trong mùa bóng của câu lạc bộ này."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vào ngày 4 tháng 7 năm 2019, Lampard được bổ nhiệm làm huấn luyện viên trưởng mới tại câu lạc bộ cũ Chelsea theo hợp đồng ba năm, trở thành HLV người Anh đầu tiên của CLB trong hơn 2 thập kỷ."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày 25 tháng 1 năm 2021, Lampard bị Chelsea sa thải vì thành tích yếu kém của đội bóng, chưa đầy một ngày sau khi thắng Luton 4-0 ở Cup FA."
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/linear1"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Thống Kê Sự Nghiệp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_layout6"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Chơi cho Chelsea tổng cộng 648 trận, ghi được 211 bàn"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Premier League (3): 2004–05, 2005–06, 2009–10"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- FA Cup (4): 2006–07, 2008–09, 2009–10, 2011–12"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- EFL Cup (2): 2004–05, 2006–07"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- FA Community Shield (2): 2005, 2009"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- UEFA Champions League (1): 2011–12"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- UEFA Europa League (1): 2012–13"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Đội hình tiêu biểu trong năm của Giải bóng đá ngoại hạng Anh: 2004, 2005, 2006, 2007, 2008"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ xuất sắc nhất Giải bóng đá ngoại hạng Anh của Barclay (2): 2005, 2006"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Tiền vệ xuất sắc nhất năm của Cúp các đội vô địch bóng đá quốc gia châu Âu: 2007–08"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ xuất sắc nhất năm của FIFA: Hạng nhì năm 2005"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Ballon d'Or: Quả bóng bạc 2005"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ Chelsea xuất sắc nhất năm: 2004, 2005, 2009"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- FIFPro World XI: 2005"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ đội tuyển Anh xuất sắc nhất năm (2): 2004, 2005"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ xuất sắc nhất trong tháng của Giải bóng đá ngoại hạng Anh (4): Tháng 9 năm 2003, tháng 4 năm 2005, tháng 10 năm 2005, tháng 10 năm 2008"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ xuất sắc nhất thập kỷ 2000-2010 của Giải ngoại hạng Anh từ số liệu thống kê của Cơ quan dữ liệu bóng đá Opta"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Đội hình tiêu biểu Euro 2004"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ ghi nhiều bàn thắng nhất trong lịch sử câu lạc bộ Chelsea"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

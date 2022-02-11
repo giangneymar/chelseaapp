@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgAvatarLegend"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:src="@drawable/fragment_legend_zola"
+            android:scaleType="fitXY"/>
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_toRightOf="@id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/frame_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/frame_layout"
+            android:layout_toRightOf="@id/imgAvatarLegend">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Gianfranco Zola"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@id/frame_layout2"
+            android:layout_toRightOf="@id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/location"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/frame_layout3"
+            android:layout_toRightOf="@id/imgAvatarLegend">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Oliena, Ý"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tiểu Sử"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_layout5"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Tháng 11 năm 1996, Zola chuyển sang chơi cho câu lạc bộ Chelsea thuộc giải Premier League nước Anh với giá 4,5 triệu bảng và là một trong nhiều cầu thủ được mua dưới tay huấn luyện viên Ruud Gullit."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Tháng 11 năm 2004, Zola được trao danh hiệu Hiệp Sĩ do nước Anh ban tặng và trong năm 2005 anh sánh bước cùng 10 cầu thủ kì cựu trong hàng ngũ đội hình huyền thoại của Chelsea. Zola rời khỏi Chelsea khi tỷ phú người Nga Roman Arkadievich Abramovich bắt đầu đặt chân đến nước Anh. Ông chủ tịch mới đã có lời mời Zola ở lại, thậm chí đã có ý mua Cagliari để Zola trở lại Chelsea nhưng Zola đã từ chối vì đã đến lúc anh phải lo cho con cái nhiều hơn."
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/linear1"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Thống Kê Sự Nghiệp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_layout6"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Chơi cho Chelsea đấu 229 trận, 59 bàn"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Vô địch - FA Cup: 1997, 2000; Cúp liên đoàn: 1998; Cúp C2: 1998"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

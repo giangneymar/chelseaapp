@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgAvatarLegend"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fragment_legend_cech" />
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_toRightOf="@id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/frame_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/frame_layout"
+            android:layout_toRightOf="@id/imgAvatarLegend">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Petr Čech"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@id/frame_layout2"
+            android:layout_toRightOf="@id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/location"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/frame_layout3"
+            android:layout_toRightOf="@id/imgAvatarLegend">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_marginRight="@dimen/_4sdp"
+                android:text="Plzeň, Cộng hòa Xã hội chủ nghĩa Tiệp Khắc"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/imgAvatarLegend"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tiểu Sử"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_layout5"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Huấn luyện viên Claudio Ranieri là người đã đưa Čech về Chelsea FC với ý định thay thế Carlo Cudicini. Rennes cuối cùng đã đồng ý để Čech gia nhập Chelsea vào tháng 2 năm 2004 với phí chuyển nhượng là 7 triệu £."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Ngày 14 tháng 10 năm 2006, trong trận gặp Reading tại sân Madejski, ngay phút thứ 1 Čech và tiền vệ Stephen Hunt của Reading đã có 1 pha va chạm rất mạnh khiến anh phải rời sân ngay lập tức được đưa đến một bệnh viện địa phương là Royal Berkshire. Nhưng sau đó, do tính nghiêm trọng của chấn thương ở đầu, Cech được chuyển đến khoa chấn thương sọ não của bệnh viện Oxford’s Radcliffe lớn hơn và phải trải qua cuộc phẫu thuật ở đây."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Čech có trận đấu trở lại sau chấn thương trong trận gặp Liverpool vào ngày 20 tháng 1 2007 với 1 chiếc mũ bảo hộ đặc biệt dành cho môn bóng bầu dục ở trên đầu."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Trong buổi lễ bốc thăm chia bảng vòng đấu bảng UEFA Champions League 2007-08, Čech nhận danh hiệu Thủ môn xuất sắc nhất UEFA Champion League 2006/2007."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Čech ký hợp đồng mới có thời hạn 5 năm vào tháng 7 năm 2008 để giữ anh ở lại Chelsea cho đến năm 2013."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Mùa giải 2011–12: Chức vô địch UEFA Champions League trong mùa giải đầy bão tố."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Ngày 29 tháng 6 năm 2015, Petr Čech chính thức chuyển đến Arsenal."
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/linear1"
+            android:background="#0F44E1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Thống Kê Sự Nghiệp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_layout6"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Premier League: 2004–05, 2005–06, 2009–10, 2014–15"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- FA Cup: 2006–07, 2008–09, 2009–10, 2011–12"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- EFL Cup: 2004–05, 2006–07, 2014–15"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- FA Community Shield: 2005, 2009"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- UEFA Champions League: 2011–12, á quân 2007-08"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- UEFA Europa League: 2012–13"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Thủ môn xuất sắc nhất thế giới: 2005"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Thủ môn xuất sắc nhất châu Âu: 2005, 2007"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Thủ môn xuất sắc nhất UEFA Champions League: 2005, 2007"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ xuất sắc nhất trong tháng của Premier League: Tháng 3 năm 2007"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cầu thủ Cộng hòa Séc xuất sắc nhất trong năm: 2005, 2006, 2007"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Găng tay vàng Barclays: 2005, 2010"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

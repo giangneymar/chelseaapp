@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "741052627383",
+    "project_id": "chelseafcapp-6d460",
+    "storage_bucket": "chelseafcapp-6d460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741052627383:android:1331ec49f08f8a4c605032",
+        "android_client_info": {
+          "package_name": "com.example.chelseafc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741052627383-57lmi1nhd5csseuesvuqqso1s4ujhgkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-DfDotLiV6EnAnvjZjx5oQ1dGpPPQXgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741052627383-57lmi1nhd5csseuesvuqqso1s4ujhgkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

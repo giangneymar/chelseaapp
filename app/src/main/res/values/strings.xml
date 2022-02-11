@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Chelsea FC</string>
+    <string name="sign_up">Đăng Ký</string>
+    <string name="login">ĐĂNG NHẬP</string>
+    <string name="nickname">Nickname</string>
+    <string name="password">Mật Khẩu</string>
+    <string name="app_for_fan_chelsea">APP FOR FAN CHELSEA</string>
+    <string name="remember_password">NHỚ MẬT KHẨU</string>
+    <string name="forgot_password">QUÊN MẬT KHẨU ?</string>
+    <string name="re_password">Nhập Lại Mật Khẩu</string>
+    <string name="email">Email</string>
+    <string name="send">Gửi</string>
+    <string name="create_new_account">Bạn chưa có tài khoản ? Vui lòng đăng ký</string>
+    <string name="photos">Ảnh</string>
+    <string name="first_team">Đội 1</string>
+    <string name="legend">Huyền Thoại CLB</string>
+    <string name="prize">Danh Hiệu</string>
+    <string name="about">Thông Tin CLB</string>
+    <string name="developer">DEV</string>
+    <string name="nav_drawer_open">Mở Thanh Điều Hướng</string>
+    <string name="nav_drawer_close">Đóng Thanh Điều Hướng</string>
+    <string name="update_profile">Cập Nhật Thông Tin</string>
+    <string name="change_password">Đổi Mật Khẩu</string>
+    <string name="sign_out">Đăng Xuất</string>
+    <string name="information_profile">Thông Tin Tài Khoản</string>
+    <string name="old_password">Mật Khẩu Cũ</string>
+    <string name="new_password">Mật Khẩu Mới</string>
+    <string name="alert">Nếu đã quá lâu không đăng xuất, chức năng đổi mật khẩu có thể không hoạt động chính xác. Vui lòng đăng nhập lại để sử dụng.</string>
+    <string name="tvvf1">Chelsea Vô Địch UEFA Champion League 2020-2021</string>
+    <string name="tvvf2">Chelsea Vô Địch EPL 2014-2015</string>
+    <string name="tvvf3">Đội Hình Chelsea Mùa Giải 2008-2009</string>
+    <string name="tvvf4">Huyền Thoại CLB Frank Lampard</string>
+    <string name="tvvf5">Eden Hazard</string>
+    <string name="name">Tên</string>
+    <string name="location">Nơi Sinh</string>
+    <string name="have_account_login">Bạn đã có tài khoản ? Đăng nhập</string>
+
+</resources>
