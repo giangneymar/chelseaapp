@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "741052627383-c9fmki3phnoura5mlp7je7liqt52js3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chelseafc",
+            "certificate_hash": "93d5f01bf5f997d9cdf74f282a8f00b0665e6bea"
+          }
+        },
+        {
           "client_id": "741052627383-57lmi1nhd5csseuesvuqqso1s4ujhgkd.apps.googleusercontent.com",
           "client_type": 3
         }

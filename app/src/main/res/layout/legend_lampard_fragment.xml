@@ -32,7 +32,7 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@id/frame_layout2"
+            android:id="@+id/frame_layout2"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_30sdp"
             android:layout_below="@+id/frame_layout"

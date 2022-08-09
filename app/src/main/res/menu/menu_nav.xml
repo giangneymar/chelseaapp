@@ -32,11 +32,6 @@
         android:title="@string/developer" />
 
     <item
-        android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_profile"
-        android:title="@string/information_profile" />
-
-    <item
         android:id="@+id/nav_signout"
         android:icon="@drawable/ic_signout"
         android:title="@string/sign_out" />
